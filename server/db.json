@@ -1,0 +1,56 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "makanan"
+        },
+        {
+            "id": 2,
+            "name": "minuman"
+        },
+        {
+            "id": 1,
+            "name": "cemilan"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Nasi goreng",
+            "price": 15000,
+            "code": "fr-1",
+            "image": "https://www.seriouseats.com/thmb/haHZBlBbdjmY9ffMCzTu8Z3e9xo=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__01__20160206-fried-rice-food-lab-68-807af5859cdd42dfb96bda07f62fb32e.jpg",
+            "category": {
+                "id": 1,
+                "name": "makanan"
+            },
+            "categories_id": 1
+        },
+        {
+            "id": 2,
+            "name": "Coffee Latte",
+            "price": 10000,
+            "code": "cl-1",
+            "image": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_500740897_200013331653767347294_333325.jpg",
+            "category": {
+                "id": 2,
+                "name": "minuman"
+            },
+            "categories_id": 2
+        },
+        {
+            "id": 3,
+            "name": "Kentang Goreng",
+            "price": 5000,
+            "code": "ff-1",
+            "image": "https://kitchen.bali-family.com/wp-content/uploads/2021/06/French-fries-WS-500x500-1.jpg",
+            "category": {
+                "id": 3,
+                "name": "cemilan"
+            },
+            "categories_id":3
+        }
+    ],
+    "charts": [],
+    "orders": []
+}
