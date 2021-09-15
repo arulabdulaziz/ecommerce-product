@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  background-color: #22668A;
+}
+
+.active-category {
+  background-color: #22668A;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #22668A;
+}
+.card-product:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+@media only screen and (max-height: 1000px) {
+  .result {
+    height: 650px;
+  }
+  
+  .menu {
+    height: 800px;
+  }
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.overflow-auto::-webkit-scrollbar{
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
