@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProductMenuCard from "./ProductMenuCard";
-import { useLocation, useParams, useHistory } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Spinner, Row, Col } from "react-bootstrap";
 import axios from "../axios/axios";
 function Menu(props) {
@@ -52,7 +52,7 @@ function Menu(props) {
   return (
     <div>
       {title}
-      <Row>
+      <Row className="overflow-auto menu">
         {products.map((e, i) => (
           <Col md={4} xs={6} className="mb-4" key={i}>
             <ProductMenuCard
